@@ -43,17 +43,17 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section" id="about">
-          <h2>About the Conference</h2>
+<section className="section" id="about">
+  <h2>About the Conference</h2>
 
-          <p className="section-intro">
-            Hydroscience and Engineering 2026 brings together researchers,
-            engineers, policymakers, students, and practitioners to discuss
-            freshwater resources, water engineering, environmental
-            sustainability, and emerging water-management challenges in
-            Mongolia and beyond.
-          </p>
-        </section>
+  <p className="section-intro">
+    Hydroscience and Engineering 2026 brings together researchers,
+    engineers, policymakers, students, and practitioners to discuss
+    freshwater resources, water engineering, environmental
+    sustainability, and emerging water-management challenges in
+    Mongolia and beyond.
+  </p>
+</section>
 
         <section className="section" id="themes">
           <h2>Conference Themes</h2>
@@ -161,34 +161,34 @@ export default function Home() {
         </section>
 
         <section className="section organizers" id="organizers">
-          <h2>Organizers</h2>
+  <h2>Organizers</h2>
 
-          <div className="grid">
-            <div className="card">
-              <h3>Mongolian University of Science and Technology</h3>
-              <p>
-                School of Civil Engineering and Architecture
-              </p>
-            </div>
+  <div className="grid">
+    <div className="card">
+      <h3>Mongolian University of Science and Technology</h3>
+      <p>
+        School of Civil Engineering and Architecture
+      </p>
+    </div>
 
-            <div className="card">
-              <h3>Conference Partners</h3>
-              <p>
-                Universities, research organizations, governmental
-                institutions, and professional organizations.
-              </p>
-            </div>
+    <div className="card">
+      <h3>The Freshwater Resources and Nature Conservation Center (FWRNCC)</h3>
+      <p>
+        Co-organizer of Hydroscience and Engineering 2026, supporting
+        freshwater-resource conservation, environmental sustainability,
+        and nature protection in Mongolia.
+      </p>
+    </div>
 
-            <div className="card">
-              <h3>Scientific Committee</h3>
-              <p>
-                National and international researchers in hydroscience,
-                engineering, and environmental sustainability.
-              </p>
-            </div>
-          </div>
-        </section>
-
+    <div className="card">
+      <h3>Conference Partners</h3>
+      <p>
+        Universities, research organizations, governmental institutions,
+        and professional organizations.
+      </p>
+    </div>
+  </div>
+</section>
         <section className="section cta" id="contact">
           <h2>Join HSE 2026</h2>
 

@@ -61,19 +61,17 @@ export default function Home() {
           <h2>About the Conference</h2>
 
           <p className="section-intro">
-            Hydroscience and Engineering 2026 is jointly organized by the
-            School of Civil Engineering and Architecture of the Mongolian
-            University of Science and Technology, the Freshwater Resources and
-            Nature Conservation Center, and the Mongolian Society for Water
-            Engineering and in recognition of its important contributions
-            to freshwater resource management and nature conservation.
+            Hydroscience and Engineering 2026 is jointly organized by the Mongolian University
+            of Science and Technology, the Freshwater Resources and Nature Conservation Center (FWRNCC),
+            and the Mongolian Society for Water Engineering in celebration of the 15th anniversary of
+            FWRNCC and in recognition of its important contributions to freshwater resource management
+            and nature conservation.
           </p>
 
           <p className="section-intro">
-            The conference brings together researchers, engineers,
-            policymakers, students, and practitioners to discuss freshwater
-            resources, water engineering, environmental sustainability, and
-            emerging water-management challenges in Mongolia and beyond.
+            The conference brings together researchers, engineers, policymakers, students, and
+            practitioners to exchange knowledge and discuss freshwater resources, water engineering,
+            environmental sustainability, and emerging water management challenges in Mongolia and beyond.
           </p>
         </section>
 
@@ -190,14 +188,9 @@ export default function Home() {
           <h2>Main Organizers</h2>
 
           <p className="section-intro">
-            Hydroscience and Engineering 2026 is jointly organized by the Mongolian University
-            of Science and Technology, the Freshwater Resources and Nature Conservation Center (FWRNCC),
-            and the Mongolian Society for Water Engineering in celebration of the 15th anniversary of
-            FWRNCC and in recognition of its important contributions to freshwater resource management
-            and nature conservation.
-            The conference brings together researchers, engineers, policymakers, students, and
-            practitioners to exchange knowledge and discuss freshwater resources, water engineering,
-            environmental sustainability, and emerging water management challenges in Mongolia and beyond.
+            Hydroscience and Engineering 2026 is jointly organized by three
+            institutions representing higher education, freshwater and nature
+            conservation, and the water engineering profession in Mongolia.
           </p>
 
           <div className="organization-grid">
@@ -235,7 +228,7 @@ export default function Home() {
               <h3>Freshwater Resources and Nature Conservation Center</h3>
 
               <p className="organization-subtitle">
-                Freshwater resources and nature conservation
+                Environmental conservation and public education organization
               </p>
 
               <div className="organization-short">FWRNCC</div>
@@ -277,7 +270,7 @@ export default function Home() {
             <div className="support-card">
               <div className="support-logo-wrapper">
                 <Image
-                  src="/logoTsengegUs.jpg"
+                  src="/GOM.svg"
                   alt="Ministry of Environment and Climate Change logo"
                   width={130}
                   height={130}

@@ -156,7 +156,7 @@ export default function Home() {
             </div>
 
             <div className="date-row">
-              <strong>09 Nov 2026</strong>
+              <strong>Conference date</strong>
               <span>9 Nov · 2026 · Ulaanbaatar, Mongolia</span>
             </div>
           </div>

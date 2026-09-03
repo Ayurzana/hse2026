@@ -150,16 +150,137 @@ header {
   gap: 24px;
 }
 
-.card {
-  background: white;
-  padding: 28px;
-  border-radius: 12px;
-  border: 1px solid #dde8ee;
+/* ORGANIZATIONS */
+
+.organization-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-top: 36px;
 }
 
-.card h3 {
-  margin-bottom: 12px;
+.organization-card {
+  background: white;
+  border: 1px solid #dde8ee;
+  border-radius: 16px;
+  padding: 32px 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.organization-logo {
+  width: 170px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.institution-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.organization-card h3 {
   color: #174d65;
+  font-size: 1.2rem;
+  line-height: 1.35;
+  margin-bottom: 10px;
+}
+
+.organization-subtitle {
+  color: #526b78;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
+.organization-short {
+  font-weight: 700;
+  color: #0b5d75;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+}
+
+/* SUPPORTING ORGANIZATIONS */
+
+.supporting-organizations {
+  background: #f7fafb;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 36px;
+}
+
+.support-card {
+  background: white;
+  border: 1px solid #dde8ee;
+  border-radius: 14px;
+  padding: 28px 22px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.support-logo-wrapper {
+  width: 150px;
+  height: 120px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.support-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.support-card h3 {
+  font-size: 1.05rem;
+  color: #174d65;
+  line-height: 1.4;
+}
+
+/* HEADER LOGO */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0b5d75;
+}
+
+.logo-img {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .organization-grid,
+  .support-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .organization-card,
+  .support-card {
+    max-width: 520px;
+    width: 100%;
+    margin: auto;
+  }
 }
 
 .dates {

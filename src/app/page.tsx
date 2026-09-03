@@ -7,7 +7,7 @@ export default function Home() {
         <nav className="navbar">
           <div className="logo">
             <Image
-              src="/ConferenceLogo.png"
+              src="/ConferenceLogo.jpg"
               alt="HSE 2026 logo"
               width={96}
               height={96}
@@ -189,16 +189,21 @@ export default function Home() {
           <h2>Main Organizers</h2>
 
           <p className="section-intro">
-            Hydroscience and Engineering 2026 is jointly organized by three
-            institutions representing higher education, freshwater and nature
-            conservation, and the water engineering profession in Mongolia.
+            Hydroscience and Engineering 2026 is jointly organized by the Mongolian University
+            of Science and Technology, the Freshwater Resources and Nature Conservation Center (FWRNCC),
+            and the Mongolian Society for Water Engineering in celebration of the 15th anniversary of
+            FWRNCC and in recognition of its important contributions to freshwater resource management
+            and nature conservation.
+            The conference brings together researchers, engineers, policymakers, students, and
+            practitioners to exchange knowledge and discuss freshwater resources, water engineering,
+            environmental sustainability, and emerging water management challenges in Mongolia and beyond.
           </p>
 
           <div className="organization-grid">
             <div className="organization-card">
               <div className="organization-logo">
                 <Image
-                  src="/must-logo.png"
+                  src="/LogoMUST.jpg"
                   alt="Mongolian University of Science and Technology logo"
                   width={150}
                   height={150}
@@ -218,7 +223,7 @@ export default function Home() {
             <div className="organization-card">
               <div className="organization-logo">
                 <Image
-                  src="/fwrncc-logo.png"
+                  src="/logoTsengegUs.jpg"
                   alt="Freshwater Resources and Nature Conservation Center logo"
                   width={150}
                   height={150}
@@ -238,7 +243,7 @@ export default function Home() {
             <div className="organization-card">
               <div className="organization-logo">
                 <Image
-                  src="/mswe-logo.png"
+                  src="/maher.png"
                   alt="Mongolian Society for Water Engineering logo"
                   width={150}
                   height={150}
@@ -271,7 +276,7 @@ export default function Home() {
             <div className="support-card">
               <div className="support-logo-wrapper">
                 <Image
-                  src="/ministry-environment-logo.png"
+                  src="/logoTsengegUs.jpg"
                   alt="Ministry of Environment and Climate Change logo"
                   width={130}
                   height={130}
@@ -285,7 +290,7 @@ export default function Home() {
             <div className="support-card">
               <div className="support-logo-wrapper">
                 <Image
-                  src="/water-agency-logo.png"
+                  src="/GOM.svg"
                   alt="Water Agency logo"
                   width={130}
                   height={130}
@@ -299,7 +304,7 @@ export default function Home() {
             <div className="support-card">
               <div className="support-logo-wrapper">
                 <Image
-                  src="/maher-logo.png"
+                  src="/maher.png"
                   alt="Mongolian Association for Hydro-Environmental Engineering and Research logo"
                   width={130}
                   height={130}

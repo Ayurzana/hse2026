@@ -9,8 +9,8 @@ export default function Home() {
             <Image
               src="/ConferenceLogo.jpg"
               alt="HSE 2026 logo"
-              width={96}
-              height={96}
+              width={120}
+              height={120}
               className="logo-img"
               priority
             />
@@ -137,27 +137,27 @@ export default function Home() {
           <div className="dates">
             <div className="date-row">
               <strong>Call for Papers</strong>
-              <span>To be announced</span>
-            </div>
-
-            <div className="date-row">
-              <strong>Abstract Submission</strong>
-              <span>To be announced</span>
-            </div>
-
-            <div className="date-row">
-              <strong>Acceptance Notification</strong>
-              <span>To be announced</span>
+              <span>3 Sep 2026</span>
             </div>
 
             <div className="date-row">
               <strong>Full Paper Submission</strong>
-              <span>To be announced</span>
+              <span>12 Oct 2026</span>
             </div>
 
             <div className="date-row">
-              <strong>Conference Date</strong>
-              <span>2026 · Ulaanbaatar, Mongolia</span>
+              <strong>Acceptance Notification</strong>
+              <span>23 Oct 2026</span>
+            </div>
+
+            <div className="date-row">
+              <strong>Revised Full Paper Submission</strong>
+              <span>29 Oct 2026</span>
+            </div>
+
+            <div className="date-row">
+              <strong>09 Nov 2026</strong>
+              <span>9 Nov · 2026 · Ulaanbaatar, Mongolia</span>
             </div>
           </div>
         </section>

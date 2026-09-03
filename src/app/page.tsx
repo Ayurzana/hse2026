@@ -237,7 +237,7 @@ export default function Home() {
             <div className="organization-card">
               <div className="organization-logo">
                 <Image
-                  src="/maher.png"
+                  src="/logo_mn_blue.png"
                   alt="Mongolian Society for Water Engineering logo"
                   width={150}
                   height={150}

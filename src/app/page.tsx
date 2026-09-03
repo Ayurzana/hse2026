@@ -65,7 +65,8 @@ export default function Home() {
             School of Civil Engineering and Architecture of the Mongolian
             University of Science and Technology, the Freshwater Resources and
             Nature Conservation Center, and the Mongolian Society for Water
-            Engineering.
+            Engineering and in recognition of its important contributions
+            to freshwater resource management and nature conservation.
           </p>
 
           <p className="section-intro">

@@ -38,11 +38,19 @@ header {
   gap: 24px;
 }
 
-.logo {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #0b5d75;
-}
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem; /* space between image and text */
+    font-weight: 700;
+  }
+
+  .logo-img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    display: inline-block;
+  }
 
 .nav-links {
   display: flex;

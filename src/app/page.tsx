@@ -47,11 +47,14 @@ export default function Home() {
   <h2>About the Conference</h2>
 
   <p className="section-intro">
-    Hydroscience and Engineering 2026 brings together researchers,
-    engineers, policymakers, students, and practitioners to discuss
-    freshwater resources, water engineering, environmental
-    sustainability, and emerging water-management challenges in
-    Mongolia and beyond.
+    Hydroscience and Engineering 2026 is jointly organized by the School
+    of Civil Engineering and Architecture of the Mongolian
+    University of Science and Technology and the Freshwater Resources and
+    Nature Conservation Center (FWRNCC) for the 15th anniversary of FWRNCC.
+    The conference brings together researchers, engineers, policymakers,
+    students, and practitioners to discuss freshwater resources, water
+    engineering, environmental sustainability, and emerging water-management
+    challenges in Mongolia and beyond.
   </p>
 </section>
 
@@ -62,7 +65,7 @@ export default function Home() {
             <div className="card">
               <h3>Freshwater Resources</h3>
               <p>
-                Hydrology, river systems, groundwater, water availability,
+                Hydrology, river systems, groundwater, freshwater protection,
                 monitoring, and sustainable freshwater management.
               </p>
             </div>
@@ -70,7 +73,7 @@ export default function Home() {
             <div className="card">
               <h3>Water Engineering</h3>
               <p>
-                Hydraulic engineering, flood risk reduction, dams, reservoirs,
+                Hydraulic engineering, flood risk reduction, reservoirs and ponds,
                 river engineering, and climate-resilient infrastructure.
               </p>
             </div>
@@ -86,7 +89,7 @@ export default function Home() {
             <div className="card">
               <h3>Urban Water</h3>
               <p>
-                Urban flooding, drainage, water-sensitive planning, resilient
+                Urban flooding, drainage, water-sensitive urban planning, resilient
                 cities, and integrated land-water management.
               </p>
             </div>
@@ -103,7 +106,7 @@ export default function Home() {
               <h3>Innovation and Research</h3>
               <p>
                 Modeling, remote sensing, data science, monitoring systems, and
-                innovative technologies for water management.
+                hydroinformatic technologies for water management.
               </p>
             </div>
           </div>

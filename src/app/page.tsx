@@ -1,13 +1,21 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <>
       <header>
         <nav className="navbar">
-          <nav className="navbar">
-              <div className="logo">
-              <Image src="/ConferenceLogo.jpg" alt="HSE 2026 logo" width={48} height={48} className="logo-img" />
-              <span>HSE 2026</span>
+          <div className="logo">
+            <Image
+              src="/ConferenceLogo.jpg"
+              alt="HSE 2026 logo"
+              width={48}
+              height={48}
+              className="logo-img"
+            />
+            <span>HSE 2026</span>
           </div>
+
           <div className="nav-links">
             <a href="#about">About</a>
             <a href="#themes">Themes</a>
@@ -20,6 +28,7 @@ export default function Home() {
       </header>
 
       <main>
+        {/* HERO */}
         <section className="hero">
           <div className="hero-inner">
             <div className="eyebrow">International Conference</div>
@@ -46,21 +55,27 @@ export default function Home() {
           </div>
         </section>
 
-<section className="section" id="about">
-  <h2>About the Conference</h2>
+        {/* ABOUT */}
+        <section className="section" id="about">
+          <h2>About the Conference</h2>
 
-  <p className="section-intro">
-    Hydroscience and Engineering 2026 is jointly organized by the School
-    of Civil Engineering and Architecture of the Mongolian
-    University of Science and Technology and the Freshwater Resources and
-    Nature Conservation Center (FWRNCC) for the 15th anniversary of FWRNCC.
-    The conference brings together researchers, engineers, policymakers,
-    students, and practitioners to discuss freshwater resources, water
-    engineering, environmental sustainability, and emerging water-management
-    challenges in Mongolia and beyond.
-  </p>
-</section>
+          <p className="section-intro">
+            Hydroscience and Engineering 2026 is jointly organized by the
+            School of Civil Engineering and Architecture of the Mongolian
+            University of Science and Technology and the Freshwater Resources
+            and Nature Conservation Center (FWRNCC), in celebration of the
+            15th anniversary of FWRNCC.
+          </p>
 
+          <p className="section-intro">
+            The conference brings together researchers, engineers,
+            policymakers, students, and practitioners to discuss freshwater
+            resources, water engineering, environmental sustainability, and
+            emerging water-management challenges in Mongolia and beyond.
+          </p>
+        </section>
+
+        {/* THEMES */}
         <section className="section" id="themes">
           <h2>Conference Themes</h2>
 
@@ -76,8 +91,8 @@ export default function Home() {
             <div className="card">
               <h3>Water Engineering</h3>
               <p>
-                Hydraulic engineering, flood risk reduction, reservoirs and ponds,
-                river engineering, and climate-resilient infrastructure.
+                Hydraulic engineering, flood risk reduction, reservoirs and
+                ponds, river engineering, and climate-resilient infrastructure.
               </p>
             </div>
 
@@ -92,8 +107,8 @@ export default function Home() {
             <div className="card">
               <h3>Urban Water</h3>
               <p>
-                Urban flooding, drainage, water-sensitive urban planning, resilient
-                cities, and integrated land-water management.
+                Urban flooding, drainage, water-sensitive urban planning,
+                resilient cities, and integrated land-water management.
               </p>
             </div>
 
@@ -109,12 +124,13 @@ export default function Home() {
               <h3>Innovation and Research</h3>
               <p>
                 Modeling, remote sensing, data science, monitoring systems, and
-                hydroinformatic technologies for water management.
+                hydroinformatics technologies for water management.
               </p>
             </div>
           </div>
         </section>
 
+        {/* IMPORTANT DATES */}
         <section className="section" id="dates">
           <h2>Important Dates</h2>
 
@@ -146,6 +162,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* CALL FOR PAPERS */}
         <section className="section" id="papers">
           <h2>Call for Papers</h2>
 
@@ -166,35 +183,38 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ORGANIZERS */}
         <section className="section organizers" id="organizers">
-  <h2>Organizers</h2>
+          <h2>Organizers</h2>
 
-  <div className="grid">
-    <div className="card">
-      <h3>Mongolian University of Science and Technology</h3>
-      <p>
-        School of Civil Engineering and Architecture
-      </p>
-    </div>
+          <div className="grid">
+            <div className="card">
+              <h3>Mongolian University of Science and Technology</h3>
+              <p>School of Civil Engineering and Architecture</p>
+            </div>
 
-    <div className="card">
-      <h3>The Freshwater Resources and Nature Conservation Center (FWRNCC)</h3>
-      <p>
-        Co-organizer of Hydroscience and Engineering 2026, supporting
-        freshwater-resource conservation, environmental sustainability,
-        and nature protection in Mongolia.
-      </p>
-    </div>
+            <div className="card">
+              <h3>
+                Freshwater Resources and Nature Conservation Center (FWRNCC)
+              </h3>
+              <p>
+                Co-organizer of Hydroscience and Engineering 2026, supporting
+                freshwater resource conservation, environmental sustainability,
+                and nature protection in Mongolia.
+              </p>
+            </div>
 
-    <div className="card">
-      <h3>Conference Partners</h3>
-      <p>
-        Universities, research organizations, governmental institutions,
-        and professional organizations.
-      </p>
-    </div>
-  </div>
-</section>
+            <div className="card">
+              <h3>Conference Partners</h3>
+              <p>
+                Universities, research organizations, governmental
+                institutions, and professional organizations.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* CONTACT */}
         <section className="section cta" id="contact">
           <h2>Join HSE 2026</h2>
 
@@ -205,6 +225,7 @@ export default function Home() {
         </section>
       </main>
 
+      {/* FOOTER */}
       <footer>
         <div className="footer-inner">
           <strong>Hydroscience and Engineering 2026</strong>

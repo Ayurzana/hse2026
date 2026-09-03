@@ -5,7 +5,7 @@ export default function Home() {
         <nav className="navbar">
           <nav className="navbar">
               <div className="logo">
-              <img src="/ConferenceLogo.jpg" alt="HSE 2026 logo" className="logo-img" />
+              <Image src="/ConferenceLogo.jpg" alt="HSE 2026 logo" width={48} height={48} className="logo-img" />
               <span>HSE 2026</span>
           </div>
           <div className="nav-links">

@@ -7,11 +7,12 @@ export default function Home() {
         <nav className="navbar">
           <div className="logo">
             <Image
-              src="/ConferenceLogo.jpg"
+              src="/ConferenceLogo.png"
               alt="HSE 2026 logo"
-              width={88}
-              height={88}
+              width={96}
+              height={96}
               className="logo-img"
+              priority
             />
             <span>HSE 2026</span>
           </div>
@@ -62,9 +63,9 @@ export default function Home() {
           <p className="section-intro">
             Hydroscience and Engineering 2026 is jointly organized by the
             School of Civil Engineering and Architecture of the Mongolian
-            University of Science and Technology and the Freshwater Resources
-            and Nature Conservation Center (FWRNCC), in celebration of the
-            15th anniversary of FWRNCC.
+            University of Science and Technology, the Freshwater Resources and
+            Nature Conservation Center, and the Mongolian Society for Water
+            Engineering.
           </p>
 
           <p className="section-intro">
@@ -185,31 +186,133 @@ export default function Home() {
 
         {/* ORGANIZERS */}
         <section className="section organizers" id="organizers">
-          <h2>Organizers</h2>
+          <h2>Main Organizers</h2>
 
-          <div className="grid">
-            <div className="card">
+          <p className="section-intro">
+            Hydroscience and Engineering 2026 is jointly organized by three
+            institutions representing higher education, freshwater and nature
+            conservation, and the water engineering profession in Mongolia.
+          </p>
+
+          <div className="organization-grid">
+            <div className="organization-card">
+              <div className="organization-logo">
+                <Image
+                  src="/must-logo.png"
+                  alt="Mongolian University of Science and Technology logo"
+                  width={150}
+                  height={150}
+                  className="institution-logo"
+                />
+              </div>
+
               <h3>Mongolian University of Science and Technology</h3>
-              <p>School of Civil Engineering and Architecture</p>
+
+              <p className="organization-subtitle">
+                School of Civil Engineering and Architecture
+              </p>
+
+              <div className="organization-short">MUST · SCEA</div>
             </div>
 
-            <div className="card">
+            <div className="organization-card">
+              <div className="organization-logo">
+                <Image
+                  src="/fwrncc-logo.png"
+                  alt="Freshwater Resources and Nature Conservation Center logo"
+                  width={150}
+                  height={150}
+                  className="institution-logo"
+                />
+              </div>
+
+              <h3>Freshwater Resources and Nature Conservation Center</h3>
+
+              <p className="organization-subtitle">
+                Freshwater resources and nature conservation
+              </p>
+
+              <div className="organization-short">FWRNCC</div>
+            </div>
+
+            <div className="organization-card">
+              <div className="organization-logo">
+                <Image
+                  src="/mswe-logo.png"
+                  alt="Mongolian Society for Water Engineering logo"
+                  width={150}
+                  height={150}
+                  className="institution-logo"
+                />
+              </div>
+
+              <h3>Mongolian Society for Water Engineering</h3>
+
+              <p className="organization-subtitle">
+                Professional society for water engineering
+              </p>
+
+              <div className="organization-short">MSWE</div>
+            </div>
+          </div>
+        </section>
+
+        {/* SUPPORTING ORGANIZATIONS */}
+        <section className="section supporting-organizations">
+          <h2>Supporting Organizations</h2>
+
+          <p className="section-intro">
+            The conference is supported by national government institutions
+            and professional and research organizations working in water,
+            environment, and climate-related fields.
+          </p>
+
+          <div className="support-grid">
+            <div className="support-card">
+              <div className="support-logo-wrapper">
+                <Image
+                  src="/ministry-environment-logo.png"
+                  alt="Ministry of Environment and Climate Change logo"
+                  width={130}
+                  height={130}
+                  className="support-logo"
+                />
+              </div>
+
+              <h3>Ministry of Environment and Climate Change</h3>
+            </div>
+
+            <div className="support-card">
+              <div className="support-logo-wrapper">
+                <Image
+                  src="/water-agency-logo.png"
+                  alt="Water Agency logo"
+                  width={130}
+                  height={130}
+                  className="support-logo"
+                />
+              </div>
+
+              <h3>Water Agency</h3>
+            </div>
+
+            <div className="support-card">
+              <div className="support-logo-wrapper">
+                <Image
+                  src="/maher-logo.png"
+                  alt="Mongolian Association for Hydro-Environmental Engineering and Research logo"
+                  width={130}
+                  height={130}
+                  className="support-logo"
+                />
+              </div>
+
               <h3>
-                Freshwater Resources and Nature Conservation Center (FWRNCC)
+                Mongolian Association for Hydro-Environmental Engineering and
+                Research
               </h3>
-              <p>
-                Co-organizer of Hydroscience and Engineering 2026, supporting
-                freshwater resource conservation, environmental sustainability,
-                and nature protection in Mongolia.
-              </p>
-            </div>
 
-            <div className="card">
-              <h3>Conference Partners</h3>
-              <p>
-                Universities, research organizations, governmental
-                institutions, and professional organizations.
-              </p>
+              <div className="organization-short">MAHER</div>
             </div>
           </div>
         </section>
@@ -220,7 +323,8 @@ export default function Home() {
 
           <p className="section-intro">
             Conference registration, submission system, detailed programme,
-            keynote speakers, and venue information will be announced soon.
+            keynote speakers, venue information, and participation guidelines
+            will be announced soon.
           </p>
         </section>
       </main>
@@ -229,6 +333,11 @@ export default function Home() {
       <footer>
         <div className="footer-inner">
           <strong>Hydroscience and Engineering 2026</strong>
+
+          <p>
+            Freshwater Resources and Environmental Sustainability of Mongolia
+          </p>
+
           <p>Ulaanbaatar, Mongolia</p>
         </div>
       </footer>

@@ -9,8 +9,8 @@ export default function Home() {
             <Image
               src="/ConferenceLogo.jpg"
               alt="HSE 2026 logo"
-              width={160}
-              height={160}
+              width={240}
+              height={114}
               className="logo-img"
               priority
             />

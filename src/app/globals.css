@@ -127,7 +127,7 @@ header {
 }
 
 .button-secondary {
-  border: 1px solid white;
+  background: white;
   color: #075c75;
 }
 

@@ -170,6 +170,11 @@ export default function Home() {
             Researchers, professionals, and students are invited to submit
             original research addressing the scientific, engineering,
             environmental, and policy dimensions of freshwater sustainability.
+            All submissions will undergo review by the conference scientific committee.
+            Selected high-quality papers will be invited for publication
+            in the Journal of Water Research and Engineering, an international
+            peer-reviewed journal, subject to the journal’s editorial
+            and peer-review requirements.
           </p>
           <p className="section-intro">
             CMT ACKNOWLEDGMENT: The Microsoft CMT service was used for managing the peer-reviewing

@@ -64,9 +64,14 @@ header {
   min-height: 78vh;
   display: flex;
   align-items: center;
+
   background:
-    linear-gradient(rgba(5, 57, 82, 0.72), rgba(8, 82, 102, 0.72)),
-    url("/hero-water.jpg") center/cover;
+    linear-gradient(
+      rgba(5, 57, 82, 0.38),
+      rgba(8, 82, 102, 0.48)
+    ),
+    url("/hero-water.jpg") center center / cover no-repeat;
+
   color: white;
 }
 

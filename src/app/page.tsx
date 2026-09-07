@@ -327,6 +327,81 @@ export default function Home() {
           </div>
         </section>
 
+{/* SCIENTIFIC COMMITTEE */}
+<section className="section" id="scientific-committee">
+  <h2>Scientific Committee</h2>
+
+  <p className="section-intro">
+    The Scientific Committee of Hydroscience and Engineering 2026 brings
+    together national and international experts in hydrology, hydraulic
+    engineering, freshwater resources, environmental sustainability,
+    ecosystem restoration, water governance, and related disciplines.
+  </p>
+
+  <div className="committee-grid">
+    <div className="committee-card">
+      <h3>Dr. Ayurzana Badarch</h3>
+      <p className="committee-role">Scientific Committee Chair</p>
+      <p>
+        Mongolian University of Science and Technology (MUST), Mongolia
+      </p>
+    </div>
+
+    <div className="committee-card">
+      <h3>Dr. Sarantuya Zandarya</h3>
+      <p>
+        UNESCO Intergovernmental Hydrological Programme (UNESCO-IHP)
+      </p>
+    </div>
+
+    <div className="committee-card">
+      <h3>Prof. Wei Liang Liang</h3>
+      <p>
+        Harbin Institute of Technology, China
+      </p>
+    </div>
+
+    <div className="committee-card">
+      <h3>Freshwater Resources and Nature Conservation Center</h3>
+      <p>
+        Scientific representative to be confirmed
+      </p>
+    </div>
+
+    <div className="committee-card">
+      <h3>Mongolian Society for Water Engineering</h3>
+      <p>
+        Scientific representative to be confirmed
+      </p>
+    </div>
+
+    <div className="committee-card">
+      <h3>Water Agency of Mongolia</h3>
+      <p>
+        Scientific representative to be confirmed
+      </p>
+    </div>
+
+    <div className="committee-card">
+      <h3>
+        Mongolian Association for Hydro-Environmental Engineering and Research
+      </h3>
+      <p>
+        Scientific representative to be confirmed
+      </p>
+    </div>
+
+    <div className="committee-card">
+      <h3>International Experts</h3>
+      <p>
+        Additional invited experts in hydroscience, water engineering,
+        freshwater ecology, environmental sustainability, and water resources
+        management will be announced.
+      </p>
+    </div>
+  </div>
+</section>
+        
         {/* CONTACT */}
         <section className="section cta" id="contact">
           <h2>Join HSE 2026</h2>

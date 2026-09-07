@@ -17,14 +17,15 @@ export default function Home() {
             <span>HSE 2026</span>
           </div>
 
-          <div className="nav-links">
-            <a href="#about">About</a>
-            <a href="#themes">Themes</a>
-            <a href="#dates">Important Dates</a>
-            <a href="#papers">Call for Papers</a>
-            <a href="#organizers">Organizers</a>
-            <a href="#contact">Contact</a>
-          </div>
+<div className="nav-links">
+  <a href="#about">About</a>
+  <a href="#themes">Themes</a>
+  <a href="#dates">Important Dates</a>
+  <a href="#papers">Call for Papers</a>
+  <a href="#organizers">Organizers</a>
+  <a href="#scientific-committee">Scientific Committee</a>
+  <a href="#contact">Contact</a>
+</div>
         </nav>
       </header>
 

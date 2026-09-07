@@ -337,3 +337,41 @@ footer {
     gap: 6px;
   }
 }
+/* SCIENTIFIC COMMITTEE */
+
+.committee-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 36px;
+}
+
+.committee-card {
+  background: white;
+  border: 1px solid #dde8ee;
+  border-radius: 14px;
+  padding: 26px;
+}
+
+.committee-card h3 {
+  color: #174d65;
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+}
+
+.committee-card p {
+  color: #526b78;
+  margin: 0;
+}
+
+.committee-role {
+  font-weight: 700;
+  color: #0b5d75 !important;
+  margin-bottom: 6px !important;
+}
+
+@media (max-width: 850px) {
+  .committee-grid {
+    grid-template-columns: 1fr;
+  }
+}

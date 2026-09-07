@@ -41,7 +41,7 @@ export default function Home() {
             </h2>
 
             <div className="hero-meta">
-              Ulaanbaatar, Mongolia · 2026
+              Government Palace, Ulaanbaatar, Mongolia · 2026
             </div>
 
             <div className="buttons">
@@ -147,17 +147,17 @@ export default function Home() {
 
             <div className="date-row">
               <strong>Acceptance Notification</strong>
-              <span>23 Oct 2026</span>
+              <span>21 Oct 2026</span>
             </div>
 
             <div className="date-row">
               <strong>Revised Full Paper Submission</strong>
-              <span>29 Oct 2026</span>
+              <span>28 Oct 2026</span>
             </div>
 
             <div className="date-row">
               <strong>Conference date</strong>
-              <span>9 Nov · 2026 · Ulaanbaatar, Mongolia</span>
+              <span>7 Nov · 2026 · Ulaanbaatar, Mongolia</span>
             </div>
           </div>
         </section>
@@ -324,6 +324,7 @@ export default function Home() {
             Conference registration, submission system, detailed programme,
             keynote speakers, venue information, and participation guidelines
             will be announced soon.
+            Email: ayur@must.edu.mn
           </p>
         </section>
       </main>

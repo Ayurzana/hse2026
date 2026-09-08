@@ -378,6 +378,11 @@ export default function Home() {
                 Mongolian University of Science and Technology (MUST), Mongolia
               </p>
             </div>
+            <div className="committee-card">
+              <h3>Mr. Zorigt Nyamdorj </h3>
+              <p className="committee-role">Conference Chair</p>
+              <p>Freshwater Resources and Nature Conservation Center</p>
+            </div>
 
             <div className="committee-card">
               <h3>Dr. Boldbaatar Nyamjav</h3>
@@ -394,11 +399,6 @@ export default function Home() {
               <p>Department of Engineering Structures (MUST-SCEA)</p>
             </div>
             
-            <div className="committee-card">
-              <h3>MR. Zorigt N</h3>
-              <p className="committee-role">Conference Chair</p>
-              <p>Freshwater Resources and Nature Conservation Center</p>
-            </div>
 
             <div className="committee-card">
               <h3>Mongolian Society for Water Engineering</h3>

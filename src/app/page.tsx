@@ -64,7 +64,7 @@ export default function Home() {
 
         {/* ABOUT */}
         <section className="section" id="about">
-          <h2>About the Conference</h2>
+          <h2>About the Conference · Хурлын тухай</h2>
 
           <p className="section-intro">
             Hydroscience and Engineering 2026 is jointly organized by the
@@ -97,7 +97,7 @@ export default function Home() {
 
         {/* THEMES */}
         <section className="section" id="themes">
-          <h2>Conference Themes</h2>
+          <h2>Conference Themes · Хурлын сэдвүүд</h2>
 
           <div className="grid">
             <div className="card">
@@ -152,7 +152,7 @@ export default function Home() {
 
         {/* IMPORTANT DATES */}
         <section className="section" id="dates">
-          <h2>Important Dates</h2>
+          <h2>Important Dates · Чухал огноонууд</h2>
 
           <div className="dates">
             <div className="date-row">
@@ -184,7 +184,7 @@ export default function Home() {
 
         {/* CALL FOR PAPERS */}
         <section className="section" id="papers">
-          <h2>Call for Papers</h2>
+          <h2>Call for Papers · Өгүүллийн мэдээлэл</h2>
 
           <p className="section-intro">
             Researchers, professionals, and students are invited to submit
@@ -220,14 +220,14 @@ export default function Home() {
                className="button button-secondary"
                download
             >
-  Download Paper Template
-</a>
+               Download Paper Template
+            </a>
           </div>
         </section>
 
         {/* ORGANIZERS */}
         <section className="section organizers" id="organizers">
-          <h2>Main Organizers</h2>
+          <h2>Main Organizers  ·  Үндсэн зохион байгуулагчид</h2>
 
           <p className="section-intro">
             Hydroscience and Engineering 2026 is jointly organized by three
@@ -300,7 +300,7 @@ export default function Home() {
 
         {/* SUPPORTING ORGANIZATIONS */}
         <section className="section supporting-organizations">
-          <h2>Supporting Organizations</h2>
+          <h2>Supporting Organizations · Хамтрагч байгууллагууд</h2>
 
           <p className="section-intro">
             The conference is supported by national government institutions
@@ -360,7 +360,7 @@ export default function Home() {
 
         {/* SCIENTIFIC COMMITTEE */}
         <section className="section" id="scientific-committee">
-          <h2>Scientific Committee</h2>
+          <h2>Scientific Committee · Шинжлэх ухааны зөвлөл</h2>
 
           <p className="section-intro">
             The Scientific Committee of Hydroscience and Engineering 2026
@@ -380,17 +380,20 @@ export default function Home() {
             </div>
 
             <div className="committee-card">
-              <h3>Dr. Sarantuya Zandarya</h3>
-              <p>
-                UNESCO Intergovernmental Hydrological Programme (UNESCO-IHP)
-              </p>
+              <h3>Dr. Boldbaatar Nyamjav</h3>
+              <p>Head, Department of Engineering Structures (MUST-SCEA)</p>
             </div>
 
             <div className="committee-card">
-              <h3>Prof. Wei Liang Liang</h3>
+              <h3>Professor Wei Liang Liang</h3>
               <p>Harbin Institute of Technology, China</p>
             </div>
-
+            
+            <div className="committee-card">
+              <h3>Associate Professor Nasanbayar Narantsogt N</h3>
+              <p>Department of Engineering Structures (MUST-SCEA)</p>
+            </div>
+            
             <div className="committee-card">
               <h3>Freshwater Resources and Nature Conservation Center</h3>
               <p>Scientific representative to be confirmed</p>

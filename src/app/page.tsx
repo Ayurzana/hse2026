@@ -18,13 +18,13 @@ export default function Home() {
           </div>
 
           <div className="nav-links">
-            <a href="#about">About/Тухай</a>
-            <a href="#themes">Themes/Сэдвүүд</a>
-            <a href="#dates">Important Dates/Чухал огноо</a>
-            <a href="#papers">Call for Papers/Өгүүлэл</a>
-            <a href="#organizers">Organizers/Зохион байгуулагч</a>
-            <a href="#scientific-committee">Scientific Committee/Комисс</a>
-            <a href="#contact">Contact/Холбоо барих</a>
+            <a href="#about">About</a>
+            <a href="#themes">Themes</a>
+            <a href="#dates">Important Dates</a>
+            <a href="#papers">Call for Papers</a>
+            <a href="#organizers">Organizers</a>
+            <a href="#scientific-committee">Scientific Committee</a>
+            <a href="#contact">Contact</a>
           </div>
         </nav>
       </header>
@@ -82,6 +82,15 @@ export default function Home() {
             and discuss freshwater resources, water engineering,
             environmental sustainability, and emerging water-management
             challenges in Mongolia and beyond.
+          </p>
+          <p className="section-intro">
+            Байгаль орчин уур амьсгалын өөрчлөлтийн яамны харьяа Цэнгэг усны нөөц байгаль хамгаалах төв нь олон нийтэд экологийн боловсрол олгох сургалт, судалгаа
+            явуулж эхэлсний 15 жилийн ойд зориулан “УСНЫ ШИНЖЛЭХ УХААН БА ИНЖЕНЕРЧЛЭЛ - 2026” МОНГОЛ ОРНЫ ЦЭНГЭГ УСНЫ НӨӨЦ БА БАЙГАЛЬ ОРЧНЫ ТОГТВОРТОЙ БАЙДАЛ
+            сэдэвт эрдэм шинжилгээ, онол практикийн олон улсын хурлыг ШУТИС-ийн Барилга Архитектурын Сургуультай хамтран зохион байгуулж байна. 
+            Энэхүү олон улсын эрдэм шинжилгээний хурал нь Монгол орны цэнгэг усны нөөц ба байгаль орчны тогтвортой байдлын чиглэлээр судалгаа, шинжилгээний
+            ажлыг хийж гүйцэтгэдэг гадаадын болон дотоодын байгууллага, эрдэмтэн судлаачдын ололт, амжилт, туршлагаасаа хуваалцах, мэдлэгээ харилцан солилцох
+            таатай боломжийг бий болгохоос гадна Монгол улсын цэнгэг ус, байгаль хамгаалалд тулгамдаж буй асуудлууд, тэдгээрийн инженерийн болон байгальд
+            түшиглэсэн шийдлүүдийг хэлэлцэж цаашдын чиг хандлагыг тодорхойлоход оршино.
           </p>
         </section>
 

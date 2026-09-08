@@ -45,15 +45,20 @@ export default function Home() {
               Government Palace, Ulaanbaatar, Mongolia · 2026
             </div>
 
-            <div className="buttons">
-              <a href="#papers" className="button button-primary">
-                Submit a Paper
-              </a>
+<div className="buttons">
+  <a
+    href="https://cmt3.research.microsoft.com/HSE2026"
+    className="button button-primary"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Submit a Paper
+  </a>
 
-              <a href="#about" className="button button-secondary">
-                Learn More
-              </a>
-            </div>
+  <a href="#about" className="button button-secondary">
+    Learn More
+  </a>
+</div>
           </div>
         </section>
 
@@ -184,10 +189,20 @@ export default function Home() {
             cloud services as well as for software development and support.
           </p>
 
-          <div className="buttons">
-            <a href="#" className="button button-primary">
-              Submission Guidelines
-            </a>
+<div className="buttons">
+  <a
+    href="https://cmt3.research.microsoft.com/HSE2026"
+    className="button button-primary"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Submit a Paper
+  </a>
+
+  <a href="#" className="button button-secondary">
+    Download Paper Template
+  </a>
+</div>
 
             <a href="#" className="button button-secondary">
               Download Paper Template

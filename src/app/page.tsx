@@ -205,9 +205,13 @@ export default function Home() {
               Submit a Paper
             </a>
 
-            <a href="#" className="button button-secondary">
-              Download Paper Template
-            </a>
+            <a
+               href="/HSE_2026_Paper_Template.docx"
+               className="button button-secondary"
+               download
+            >
+  Download Paper Template
+</a>
           </div>
         </section>
 

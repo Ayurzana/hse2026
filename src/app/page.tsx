@@ -395,7 +395,7 @@ export default function Home() {
             </div>
             
             <div className="committee-card">
-              <h3>Zorigt N</h3>
+              <h3>MR. Zorigt N</h3>
               <p className="committee-role">Conference Chair</p>
               <p>Freshwater Resources and Nature Conservation Center</p>
             </div>

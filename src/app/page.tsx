@@ -17,15 +17,15 @@ export default function Home() {
             <span>HSE 2026</span>
           </div>
 
-<div className="nav-links">
-  <a href="#about">About</a>
-  <a href="#themes">Themes</a>
-  <a href="#dates">Important Dates</a>
-  <a href="#papers">Call for Papers</a>
-  <a href="#organizers">Organizers</a>
-  <a href="#scientific-committee">Scientific Committee</a>
-  <a href="#contact">Contact</a>
-</div>
+          <div className="nav-links">
+            <a href="#about">About</a>
+            <a href="#themes">Themes</a>
+            <a href="#dates">Important Dates</a>
+            <a href="#papers">Call for Papers</a>
+            <a href="#organizers">Organizers</a>
+            <a href="#scientific-committee">Scientific Committee</a>
+            <a href="#contact">Contact</a>
+          </div>
         </nav>
       </header>
 
@@ -42,23 +42,23 @@ export default function Home() {
             </h2>
 
             <div className="hero-meta">
-              Government Palace, Ulaanbaatar, Mongolia · 2026
+              Government Palace, Ulaanbaatar, Mongolia · 7 November 2026
             </div>
 
-<div className="buttons">
-  <a
-    href="https://cmt3.research.microsoft.com/HSE2026"
-    className="button button-primary"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Submit a Paper
-  </a>
+            <div className="buttons">
+              <a
+                href="https://cmt3.research.microsoft.com/HSE2026"
+                className="button button-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Submit a Paper
+              </a>
 
-  <a href="#about" className="button button-secondary">
-    Learn More
-  </a>
-</div>
+              <a href="#about" className="button button-secondary">
+                Learn More
+              </a>
+            </div>
           </div>
         </section>
 
@@ -67,17 +67,21 @@ export default function Home() {
           <h2>About the Conference</h2>
 
           <p className="section-intro">
-            Hydroscience and Engineering 2026 is jointly organized by the Mongolian University
-            of Science and Technology, the Freshwater Resources and Nature Conservation Center (FWRNCC),
-            and the Mongolian Society for Water Engineering in celebration of the 15th anniversary of
-            FWRNCC and in recognition of its important contributions to freshwater resource management
-            and nature conservation.
+            Hydroscience and Engineering 2026 is jointly organized by the
+            Mongolian University of Science and Technology, the Freshwater
+            Resources and Nature Conservation Center (FWRNCC), and the
+            Mongolian Society for Water Engineering in celebration of the
+            15th anniversary of FWRNCC and in recognition of its important
+            contributions to freshwater resource management and nature
+            conservation.
           </p>
 
           <p className="section-intro">
-            The conference brings together researchers, engineers, policymakers, students, and
-            practitioners to exchange knowledge and discuss freshwater resources, water engineering,
-            environmental sustainability, and emerging water management challenges in Mongolia and beyond.
+            The conference brings together researchers, engineers,
+            policymakers, students, and practitioners to exchange knowledge
+            and discuss freshwater resources, water engineering,
+            environmental sustainability, and emerging water-management
+            challenges in Mongolia and beyond.
           </p>
         </section>
 
@@ -143,27 +147,27 @@ export default function Home() {
           <div className="dates">
             <div className="date-row">
               <strong>Call for Papers</strong>
-              <span>3 Sep 2026</span>
+              <span>3 September 2026</span>
             </div>
 
             <div className="date-row">
               <strong>Full Paper Submission</strong>
-              <span>12 Oct 2026</span>
+              <span>12 October 2026</span>
             </div>
 
             <div className="date-row">
               <strong>Acceptance Notification</strong>
-              <span>21 Oct 2026</span>
+              <span>21 October 2026</span>
             </div>
 
             <div className="date-row">
               <strong>Revised Full Paper Submission</strong>
-              <span>28 Oct 2026</span>
+              <span>28 October 2026</span>
             </div>
 
             <div className="date-row">
-              <strong>Conference date</strong>
-              <span>7 Nov · 2026 · Ulaanbaatar, Mongolia</span>
+              <strong>Conference Date</strong>
+              <span>7 November 2026 · Ulaanbaatar, Mongolia</span>
             </div>
           </div>
         </section>
@@ -176,33 +180,30 @@ export default function Home() {
             Researchers, professionals, and students are invited to submit
             original research addressing the scientific, engineering,
             environmental, and policy dimensions of freshwater sustainability.
-            All submissions will undergo review by the conference scientific committee.
-            Selected high-quality papers will be invited for publication
-            in the Journal of Water Research and Engineering, an international
-            peer-reviewed journal, subject to the journal’s editorial
-            and peer-review requirements.
+            All submissions will undergo review by the conference Scientific
+            Committee. Selected high-quality papers will be invited for
+            publication in the <em>Journal of Water Research and Engineering</em>,
+            an international peer-reviewed journal, subject to the journal&apos;s
+            editorial and peer-review requirements.
           </p>
+
           <p className="section-intro">
-            CMT ACKNOWLEDGMENT: The Microsoft CMT service was used for managing the peer-reviewing
-            process for this conference. This service was provided for free by
-            Microsoft and they bore all expenses, including costs for Azure
-            cloud services as well as for software development and support.
+            <strong>CMT Acknowledgment:</strong> The Microsoft CMT service is
+            used for managing the peer-review process for this conference. This
+            service is provided free of charge by Microsoft, which bears the
+            associated expenses, including Azure cloud services, software
+            development, and support.
           </p>
 
-<div className="buttons">
-  <a
-    href="https://cmt3.research.microsoft.com/HSE2026"
-    className="button button-primary"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Submit a Paper
-  </a>
-
-  <a href="#" className="button button-secondary">
-    Download Paper Template
-  </a>
-</div>
+          <div className="buttons">
+            <a
+              href="https://cmt3.research.microsoft.com/HSE2026"
+              className="button button-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Submit a Paper
+            </a>
 
             <a href="#" className="button button-secondary">
               Download Paper Template
@@ -343,90 +344,88 @@ export default function Home() {
           </div>
         </section>
 
-{/* SCIENTIFIC COMMITTEE */}
-<section className="section" id="scientific-committee">
-  <h2>Scientific Committee</h2>
+        {/* SCIENTIFIC COMMITTEE */}
+        <section className="section" id="scientific-committee">
+          <h2>Scientific Committee</h2>
 
-  <p className="section-intro">
-    The Scientific Committee of Hydroscience and Engineering 2026 brings
-    together national and international experts in hydrology, hydraulic
-    engineering, freshwater resources, environmental sustainability,
-    ecosystem restoration, water governance, and related disciplines.
-  </p>
+          <p className="section-intro">
+            The Scientific Committee of Hydroscience and Engineering 2026
+            brings together national and international experts in hydrology,
+            hydraulic engineering, freshwater resources, environmental
+            sustainability, ecosystem restoration, water governance, and
+            related disciplines.
+          </p>
 
-  <div className="committee-grid">
-    <div className="committee-card">
-      <h3>Dr. Ayurzana Badarch</h3>
-      <p className="committee-role">Scientific Committee Chair</p>
-      <p>
-        Mongolian University of Science and Technology (MUST), Mongolia
-      </p>
-    </div>
+          <div className="committee-grid">
+            <div className="committee-card">
+              <h3>Dr. Ayurzana Badarch</h3>
+              <p className="committee-role">Scientific Committee Chair</p>
+              <p>
+                Mongolian University of Science and Technology (MUST), Mongolia
+              </p>
+            </div>
 
-    <div className="committee-card">
-      <h3>Dr. Sarantuya Zandarya</h3>
-      <p>
-        UNESCO Intergovernmental Hydrological Programme (UNESCO-IHP)
-      </p>
-    </div>
+            <div className="committee-card">
+              <h3>Dr. Sarantuya Zandarya</h3>
+              <p>
+                UNESCO Intergovernmental Hydrological Programme (UNESCO-IHP)
+              </p>
+            </div>
 
-    <div className="committee-card">
-      <h3>Prof. Wei Liang Liang</h3>
-      <p>
-        Harbin Institute of Technology, China
-      </p>
-    </div>
+            <div className="committee-card">
+              <h3>Prof. Wei Liang Liang</h3>
+              <p>Harbin Institute of Technology, China</p>
+            </div>
 
-    <div className="committee-card">
-      <h3>Freshwater Resources and Nature Conservation Center</h3>
-      <p>
-        Scientific representative to be confirmed
-      </p>
-    </div>
+            <div className="committee-card">
+              <h3>Freshwater Resources and Nature Conservation Center</h3>
+              <p>Scientific representative to be confirmed</p>
+            </div>
 
-    <div className="committee-card">
-      <h3>Mongolian Society for Water Engineering</h3>
-      <p>
-        Scientific representative to be confirmed
-      </p>
-    </div>
+            <div className="committee-card">
+              <h3>Mongolian Society for Water Engineering</h3>
+              <p>Scientific representative to be confirmed</p>
+            </div>
 
-    <div className="committee-card">
-      <h3>Water Agency of Mongolia</h3>
-      <p>
-        Scientific representative to be confirmed
-      </p>
-    </div>
+            <div className="committee-card">
+              <h3>Water Agency of Mongolia</h3>
+              <p>Scientific representative to be confirmed</p>
+            </div>
 
-    <div className="committee-card">
-      <h3>
-        Mongolian Association for Hydro-Environmental Engineering and Research
-      </h3>
-      <p>
-        Scientific representative to be confirmed
-      </p>
-    </div>
+            <div className="committee-card">
+              <h3>
+                Mongolian Association for Hydro-Environmental Engineering and
+                Research
+              </h3>
+              <p>Scientific representative to be confirmed</p>
+            </div>
 
-    <div className="committee-card">
-      <h3>International Experts</h3>
-      <p>
-        Additional invited experts in hydroscience, water engineering,
-        freshwater ecology, environmental sustainability, and water resources
-        management will be announced.
-      </p>
-    </div>
-  </div>
-</section>
-        
+            <div className="committee-card">
+              <h3>International Experts</h3>
+              <p>
+                Additional invited experts in hydroscience, water engineering,
+                freshwater ecology, environmental sustainability, and water
+                resources management will be announced.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* CONTACT */}
         <section className="section cta" id="contact">
           <h2>Join HSE 2026</h2>
 
           <p className="section-intro">
-            Conference registration, submission system, detailed programme,
-            keynote speakers, venue information, and participation guidelines
-            will be announced soon.
-            Email: ayur@must.edu.mn
+            Conference registration, detailed programme, keynote speakers,
+            venue information, and participation guidelines will be announced
+            soon.
+          </p>
+
+          <p>
+            Contact:{" "}
+            <a href="mailto:ayur@must.edu.mn">
+              ayur@must.edu.mn
+            </a>
           </p>
         </section>
       </main>

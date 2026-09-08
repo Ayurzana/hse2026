@@ -18,13 +18,13 @@ export default function Home() {
           </div>
 
           <div className="nav-links">
-            <a href="#about">About</a>
-            <a href="#themes">Themes</a>
-            <a href="#dates">Important Dates</a>
-            <a href="#papers">Call for Papers</a>
-            <a href="#organizers">Organizers</a>
-            <a href="#scientific-committee">Scientific Committee</a>
-            <a href="#contact">Contact</a>
+            <a href="#about">About/Тухай</a>
+            <a href="#themes">Themes/Сэдвүүд</a>
+            <a href="#dates">Important Dates/Чухал огноо</a>
+            <a href="#papers">Call for Papers/Өгүүлэл</a>
+            <a href="#organizers">Organizers/Зохион байгуулагч</a>
+            <a href="#scientific-committee">Scientific Committee/Комисс</a>
+            <a href="#contact">Contact/Холбоо барих</a>
           </div>
         </nav>
       </header>
@@ -206,7 +206,7 @@ export default function Home() {
             </a>
 
             <a
-               href="/HSE_2026_Paper_Template.docx"
+               href="/HSE2026_Paper_Template.docx"
                className="button button-secondary"
                download
             >

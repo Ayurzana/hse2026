@@ -373,7 +373,7 @@ export default function Home() {
           <div className="committee-grid">
             <div className="committee-card">
               <h3>Dr. Ayurzana Badarch</h3>
-              <p className="committee-role">Scientific Committee Chair</p>
+              <p className="committee-role">Conference and Scientific Committee Chair</p>
               <p>
                 Mongolian University of Science and Technology (MUST), Mongolia
               </p>
@@ -390,13 +390,14 @@ export default function Home() {
             </div>
             
             <div className="committee-card">
-              <h3>Associate Professor Nasanbayar Narantsogt N</h3>
+              <h3>Associate Professor Nasanbayar Narantsogt</h3>
               <p>Department of Engineering Structures (MUST-SCEA)</p>
             </div>
             
             <div className="committee-card">
-              <h3>Freshwater Resources and Nature Conservation Center</h3>
-              <p>Scientific representative to be confirmed</p>
+              <h3>Zorigt N</h3>
+              <p className="committee-role">Conference Chair</p>
+              <p>Freshwater Resources and Nature Conservation Center</p>
             </div>
 
             <div className="committee-card">

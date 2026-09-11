@@ -390,6 +390,11 @@ export default function Home() {
             </div>
 
             <div className="committee-card">
+              <h3>Professor Yong Sung Park</h3>
+              <p>Seoul National University, China</p>
+            </div>
+
+            <div className="committee-card">
               <h3>Professor Wei Liang Liang</h3>
               <p>Harbin Institute of Technology, China</p>
             </div>
@@ -401,8 +406,8 @@ export default function Home() {
             
 
             <div className="committee-card">
-              <h3>Mongolian Society for Water Engineering</h3>
-              <p>Scientific representative to be confirmed</p>
+              <h3>Dr. Dolgorsuren Garmaa</h3>
+              <p>Scientific representative of Mongolian Society for Water Engineering</p>
             </div>
 
             <div className="committee-card">
@@ -412,18 +417,15 @@ export default function Home() {
 
             <div className="committee-card">
               <h3>
-                Mongolian Association for Hydro-Environmental Engineering and
-                Research
+                Dr Chinzorig Sukhbaatar
               </h3>
-              <p>Scientific representative to be confirmed</p>
+              <p>Scientific representative of Mongolian Association for Hydro-Environmental Engineering and Research</p>
             </div>
 
             <div className="committee-card">
-              <h3>International Experts</h3>
+              <h3>Dr Uyanga Tumurtogoo</h3>
               <p>
-                Additional invited experts in hydroscience, water engineering,
-                freshwater ecology, environmental sustainability, and water
-                resources management will be announced.
+                Department of Engineering Structures (MUST-SCEA)
               </p>
             </div>
           </div>

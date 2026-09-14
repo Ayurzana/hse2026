@@ -224,7 +224,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://cmt3.research.microsoft.com/HSE2026"
+              href="PaperSubmissionGuideline.pdf"
               className="button button-primary"
               target="_blank"
               rel="noopener noreferrer"

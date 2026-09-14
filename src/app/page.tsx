@@ -222,7 +222,7 @@ export default function Home() {
             >
                Download Paper Template
             </a>
-          <div className="buttons">
+
             <a
               href="https://cmt3.research.microsoft.com/HSE2026"
               className="button button-primary"

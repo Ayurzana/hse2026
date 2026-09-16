@@ -412,27 +412,46 @@ export default function Home() {
               <h3>Associate Professor Nasanbayar Narantsogt</h3>
               <p>Department of Engineering Structures (MUST-SCEA)</p>
             </div>
-            
 
+            <div className="committee-card">
+              <h3>Dr. Ganbaatar Khurelbaatar</h3>
+              <p>Helmholtz centre for environmental research, Germany</p>
+            </div>
+            
             <div className="committee-card">
               <h3>Dr. Dolgorsuren Garmaa</h3>
               <p>Scientific representative of Mongolian Society for Water Engineering</p>
             </div>
+            
+            <div className="committee-card">
+              <h3>Professor Basandorj Davaa</h3>
+              <p>Scientific representative of the Freshwater Resources and Nature Conservation Center</p>
+            </div>
 
             <div className="committee-card">
-              <h3>Water Agency of Mongolia</h3>
-              <p>Scientific representative to be confirmed</p>
+              <h3>Professor Battsetseg Ishjamts</h3>
+              <p>Scientific representative of the Freshwater Resources and Nature Conservation Center</p>
+            </div>
+
+            <div className="committee-card">
+              <h3>Dr. Batsaikhan G</h3>
+              <p>Scientific representative of the Freshwater Resources and Nature Conservation Center</p>
+            </div>
+            
+            <div className="committee-card">
+              <h3>Dr. Adiya Saruulzaya</h3>
+              <p>Scientific representative of the Freshwater Resources and Nature Conservation Center</p>
             </div>
 
             <div className="committee-card">
               <h3>
-                Dr Chinzorig Sukhbaatar
+                Dr. Chinzorig Sukhbaatar
               </h3>
               <p>Scientific representative of Mongolian Association for Hydro-Environmental Engineering and Research</p>
             </div>
 
             <div className="committee-card">
-              <h3>Dr Uyanga Tumurtogoo</h3>
+              <h3>Dr. Uyanga Tumurtogoo</h3>
               <p>
                 Department of Engineering Structures (MUST-SCEA)
               </p>

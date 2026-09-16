@@ -400,7 +400,7 @@ export default function Home() {
 
             <div className="committee-card">
               <h3>Professor Yong Sung Park</h3>
-              <p>Seoul National University, China</p>
+              <p>Seoul National University, S.Korea</p>
             </div>
 
             <div className="committee-card">

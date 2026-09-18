@@ -242,7 +242,7 @@ export default function Home() {
       <h2>Tentative Agenda · Урьдчилсан хөтөлбөр</h2>
       <p className="section-intro">
         The programme below provides the preliminary schedule for
-        Hydroscience and Engineering 2026. Presentation titles, speakers,
+        Hydroscience and Engineering - 2026. Presentation titles, speakers,
         and session arrangements may be updated as the conference programme
         is finalized.
       </p>
@@ -311,7 +311,7 @@ export default function Home() {
         <h3>Morning Session</h3>
 
         <p>
-          Two keynote presentations and selected scientific presentations
+          Two keynote presentations and 3 selected scientific presentations
         </p>
 
         <div className="agenda-note">
@@ -329,7 +329,7 @@ export default function Home() {
     </div>
 
     <div className="agenda-item agenda-session">
-      <div className="agenda-time">13:30–15:50</div>
+      <div className="agenda-time">13:30–15:10</div>
 
       <div className="agenda-content">
         <div className="agenda-session-label">Technical Session</div>
@@ -337,7 +337,7 @@ export default function Home() {
         <h3>Afternoon Session I</h3>
 
         <p>
-          Two keynote presentations and selected scientific presentations
+          Two keynote presentations and 2 selected scientific presentations
         </p>
 
         <div className="agenda-note">
@@ -347,7 +347,7 @@ export default function Home() {
     </div>
 
     <div className="agenda-item agenda-break">
-      <div className="agenda-time">15:50–16:10</div>
+      <div className="agenda-time">15:10–15:30</div>
 
       <div className="agenda-content">
         <h3>Tea & Networking Break</h3>
@@ -355,7 +355,7 @@ export default function Home() {
     </div>
 
     <div className="agenda-item agenda-session">
-      <div className="agenda-time">16:10–17:30</div>
+      <div className="agenda-time">16:10–17:20</div>
 
       <div className="agenda-content">
         <div className="agenda-session-label">Technical Session</div>
@@ -363,7 +363,7 @@ export default function Home() {
         <h3>Afternoon Session II</h3>
 
         <p>
-          One keynote presentation and selected scientific presentations
+          One keynote presentation and 4 selected scientific presentations
         </p>
 
         <div className="agenda-note">
@@ -373,13 +373,13 @@ export default function Home() {
     </div>
 
     <div className="agenda-item agenda-special">
-      <div className="agenda-time">17:30–18:00</div>
+      <div className="agenda-time">17:20–18:00</div>
 
       <div className="agenda-content">
         <h3>Awards & Closing Ceremony</h3>
 
         <p>
-          Conference awards, closing remarks, and announcement of
+          Conference closing remarks, and announcement of
           conference outcomes
         </p>
       </div>

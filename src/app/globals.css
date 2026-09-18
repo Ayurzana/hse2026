@@ -290,7 +290,7 @@ header {
 
 .dates {
   display: grid;
-  gap: 14px;
+  gap: 20px;
 }
 
 .date-row {

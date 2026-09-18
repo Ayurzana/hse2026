@@ -21,6 +21,7 @@ export default function Home() {
             <a href="#about">About</a>
             <a href="#themes">Themes</a>
             <a href="#dates">Important Dates</a>
+            <a href="#agenda">Agenda</a>
             <a href="#papers">Call for Papers</a>
             <a href="#organizers">Organizers</a>
             <a href="#scientific-committee">Scientific Committee</a>
@@ -234,6 +235,166 @@ export default function Home() {
           </div>
         </section>
 
+        {/* TENTATIVE AGENDA · УРЬЧДИЛСАН ХӨТӨЛБӨР*/}
+<section className="section agenda-section" id="agenda">
+  <div className="section-heading-row">
+    <div>
+      <h2>Tentative Agenda · Урьдчилсан хөтөлбөр</h2>
+      <p className="section-intro">
+        The programme below provides the preliminary schedule for
+        Hydroscience and Engineering 2026. Presentation titles, speakers,
+        and session arrangements may be updated as the conference programme
+        is finalized.
+      </p>
+    </div>
+
+    <span className="tentative-badge">Tentative</span>
+  </div>
+
+  <div className="agenda-date">
+    <strong>7 November 2026</strong>
+    <span>Government Palace · Ulaanbaatar, Mongolia</span>
+  </div>
+
+  <div className="agenda-list">
+
+    <div className="agenda-item agenda-registration">
+      <div className="agenda-time">08:30–09:00</div>
+
+      <div className="agenda-content">
+        <h3>Registration</h3>
+        <p>
+          Participant registration and conference materials
+        </p>
+      </div>
+    </div>
+
+    <div className="agenda-item agenda-special">
+      <div className="agenda-time">09:00–09:40</div>
+
+      <div className="agenda-content">
+        <h3>Opening Ceremony</h3>
+        <p>
+          Welcome remarks and opening addresses by conference organizers
+          and invited representatives
+        </p>
+      </div>
+    </div>
+
+    <div className="agenda-item">
+      <div className="agenda-time">09:40–09:50</div>
+
+      <div className="agenda-content">
+        <h3>Group Photo</h3>
+        <p>Official conference group photograph</p>
+      </div>
+    </div>
+
+    <div className="agenda-item">
+      <div className="agenda-time">09:50–10:00</div>
+
+      <div className="agenda-content">
+        <h3>Conference Guidance</h3>
+        <p>
+          Introduction to the conference programme, technical sessions,
+          and organizational information
+        </p>
+      </div>
+    </div>
+
+    <div className="agenda-item agenda-session">
+      <div className="agenda-time">10:00–12:00</div>
+
+      <div className="agenda-content">
+        <div className="agenda-session-label">Technical Session</div>
+
+        <h3>Morning Session</h3>
+
+        <p>
+          Two keynote presentations and selected scientific presentations
+        </p>
+
+        <div className="agenda-note">
+          Scientific presentations: 15 min presentation + 5 min discussion
+        </div>
+      </div>
+    </div>
+
+    <div className="agenda-item agenda-break">
+      <div className="agenda-time">12:00–13:30</div>
+
+      <div className="agenda-content">
+        <h3>Lunch Break</h3>
+      </div>
+    </div>
+
+    <div className="agenda-item agenda-session">
+      <div className="agenda-time">13:30–15:50</div>
+
+      <div className="agenda-content">
+        <div className="agenda-session-label">Technical Session</div>
+
+        <h3>Afternoon Session I</h3>
+
+        <p>
+          Two keynote presentations and selected scientific presentations
+        </p>
+
+        <div className="agenda-note">
+          Scientific presentations: 15 min presentation + 5 min discussion
+        </div>
+      </div>
+    </div>
+
+    <div className="agenda-item agenda-break">
+      <div className="agenda-time">15:50–16:10</div>
+
+      <div className="agenda-content">
+        <h3>Tea & Networking Break</h3>
+      </div>
+    </div>
+
+    <div className="agenda-item agenda-session">
+      <div className="agenda-time">16:10–17:30</div>
+
+      <div className="agenda-content">
+        <div className="agenda-session-label">Technical Session</div>
+
+        <h3>Afternoon Session II</h3>
+
+        <p>
+          One keynote presentation and selected scientific presentations
+        </p>
+
+        <div className="agenda-note">
+          Scientific presentations: 15 min presentation + 5 min discussion
+        </div>
+      </div>
+    </div>
+
+    <div className="agenda-item agenda-special">
+      <div className="agenda-time">17:30–18:00</div>
+
+      <div className="agenda-content">
+        <h3>Awards & Closing Ceremony</h3>
+
+        <p>
+          Conference awards, closing remarks, and announcement of
+          conference outcomes
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div className="agenda-disclaimer">
+    <strong>Note:</strong> This is a tentative programme for information
+    purposes. The final programme, including keynote speakers, presentation
+    titles, session chairs, and detailed presentation times, will be
+    announced after completion of the paper review process.
+  </div>
+</section>
+        
         {/* ORGANIZERS */}
         <section className="section organizers" id="organizers">
           <h2>Main Organizers  ·  Үндсэн зохион байгуулагчид</h2>

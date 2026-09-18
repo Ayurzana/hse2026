@@ -158,27 +158,27 @@ export default function Home() {
           <div className="dates">
             <div className="date-row">
               <strong>Call for Papers</strong>
-              <span>3 September 2026</span>
+              <span>      3 September 2026</span>
             </div>
 
             <div className="date-row">
               <strong>Full Paper Submission</strong>
-              <span>12 October 2026</span>
+              <span>      12 October 2026</span>
             </div>
 
             <div className="date-row">
               <strong>Acceptance Notification</strong>
-              <span>21 October 2026</span>
+              <span>      21 October 2026</span>
             </div>
 
             <div className="date-row">
               <strong>Revised Full Paper Submission</strong>
-              <span>28 October 2026</span>
+              <span>      28 October 2026</span>
             </div>
 
             <div className="date-row">
               <strong>Conference Date</strong>
-              <span>7 November 2026 · Ulaanbaatar, Mongolia</span>
+              <span>      7 November 2026 · Ulaanbaatar, Mongolia</span>
             </div>
           </div>
         </section>

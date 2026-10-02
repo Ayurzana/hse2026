@@ -620,24 +620,56 @@ export default function Home() {
           </div>
         </section>
 
-        {/* CONTACT */}
-        <section className="section cta" id="contact">
-          <h2>Join HSE 2026</h2>
+       {/* CONTACT & SOCIAL MEDIA */}
+       <section className="section cta" id="contact">
+       <h2>Contact & Social Media</h2>
 
-          <p className="section-intro">
-            Conference registration, detailed programme, keynote speakers,
-            venue information, and participation guidelines will be announced
-            soon.
-          </p>
+       <p className="section-intro">
+      For conference inquiries, paper submission support, programme information,
+      and updates, please contact the HSE 2026 organizing team or follow the
+      official Facebook pages below.
+      </p>
 
-          <p>
-            Contact:{" "}
-            <a href="mailto:ayur@must.edu.mn">
-              ayur@must.edu.mn
-            </a>
-          </p>
-        </section>
-      </main>
+      <div className="contact-grid">
+      <div className="contact-card">
+      <h3>Email</h3>
+
+      <a
+        href="mailto:ayur@must.edu.mn"
+        className="contact-link"
+      >
+        ayur@must.edu.mn
+       </a>
+      </div>
+
+      <div className="contact-card">
+      <h3>Facebook</h3>
+
+      <div className="social-links">
+
+        <a
+          href="https://www.facebook.com/FWNCC2023"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-button"
+        >
+          FWRNCC Facebook page
+        </a>
+        
+        <a
+          href="https://www.facebook.com/MongolianHydro"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-button"
+        >
+          MAHER Facebook page
+        </a>
+
+
+      </div>
+      </div>
+      </div>
+      </section>
 
       {/* FOOTER */}
       <footer>

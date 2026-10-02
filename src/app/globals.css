@@ -567,3 +567,76 @@ footer {
     gap: 3px;
   }
 }
+/* CONTACT & SOCIAL MEDIA */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 24px;
+  max-width: 950px;
+  margin: 30px auto 0;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+}
+
+.contact-card h3 {
+  margin-bottom: 14px;
+  color: white;
+}
+
+.contact-link {
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  padding: 11px 18px;
+  border-radius: 8px;
+  background: white;
+  color: #0b5d75;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.social-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16);
+}
+
+@media (max-width: 750px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}

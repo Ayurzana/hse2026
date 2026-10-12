@@ -470,7 +470,29 @@ export default function Home() {
               <div className="organization-short">MSWE</div>
             </div>
           </div>
+
+                  <div className="organization-card">
+         <div className="organization-logo">
+              <Image
+              src="/tnc-mongolia-logo.png"
+              alt="The Nature Conservancy Mongolia logo"
+             width={150}
+            height={150}
+            className="institution-logo"
+            />
+           </div>
+
+             <h3>The Nature Conservancy Mongolia</h3>
+
+            <p className="organization-subtitle">
+           Conservation organization supporting ecosystem
+          protection, and sustainable freshwater management
+                 </p>
+
+            <div className="organization-short">TNC Mongolia</div>
+         </div>
         </section>
+      
 
         {/* SUPPORTING ORGANIZATIONS */}
         <section className="section supporting-organizations">
@@ -531,6 +553,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
 
         {/* SCIENTIFIC COMMITTEE */}
         <section className="section" id="scientific-committee">

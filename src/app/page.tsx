@@ -404,9 +404,10 @@ export default function Home() {
           <h2>Main Organizers  ·  Үндсэн зохион байгуулагчид</h2>
 
           <p className="section-intro">
-            Hydroscience and Engineering 2026 is jointly organized by three
-            institutions representing higher education, freshwater and nature
-            conservation, and the water engineering profession in Mongolia.
+          Hydroscience and Engineering 2026 is jointly organized by four
+          institutions representing higher education, freshwater and nature
+          conservation, professional water engineering, and environmental
+          conservation in Mongolia.
           </p>
 
           <div className="organization-grid">
@@ -474,7 +475,7 @@ export default function Home() {
                   <div className="organization-card">
          <div className="organization-logo">
               <Image
-              src="/tnc-mongolia-logo.png"
+              src="/tnc-logo.svg"
               alt="The Nature Conservancy Mongolia logo"
              width={150}
             height={150}

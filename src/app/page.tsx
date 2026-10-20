@@ -171,9 +171,12 @@ export default function Home() {
 
             <div className="date-row">
               <strong>Acceptance Notification</strong>
-                <del className="old-deadline">21 October 2026</del>
-              <span className="new-deadline">23 October 2026</span>
+              <span className="deadline-update">
+              <del className="old-deadline">21 October 2026</del>
+              <span className="new-deadline">Extended to 23 October 2026</span>
+             </span>
             </div>
+        
 
             <div className="date-row">
               <strong>Revised Full Paper Submission</strong>

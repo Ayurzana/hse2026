@@ -163,7 +163,6 @@ export default function Home() {
 
             <div className="date-row">
               <strong>Full Paper Submission</strong>
-
               <span className="deadline-update">
               <del className="old-deadline">12 October 2026</del>
               <span className="new-deadline">Extended to 16 October 2026</span>
@@ -173,7 +172,7 @@ export default function Home() {
             <div className="date-row">
               <strong>Acceptance Notification</strong>
                 <del className="old-deadline">21 October 2026</del>
-              <span> className="new-deadline">23 October 2026</span>
+              <span className="new-deadline">23 October 2026</span>
             </div>
 
             <div className="date-row">

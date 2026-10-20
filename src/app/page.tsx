@@ -172,7 +172,8 @@ export default function Home() {
 
             <div className="date-row">
               <strong>Acceptance Notification</strong>
-              <span>          21 October 2026</span>
+                <del className="old-deadline">21 October 2026</del>
+              <span>          23 October 2026</span>
             </div>
 
             <div className="date-row">

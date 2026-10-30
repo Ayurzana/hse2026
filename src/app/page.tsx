@@ -284,6 +284,7 @@ export default function Home() {
       <div className="agenda-content">
         <h3>Opening Ceremony</h3>
         <p>
+        <p>
 Welcome addresses by
 Ayurzana Badarch, The conference chair, MUST
 Bulgantamir Nyamdorj, Director of FWRNCC
@@ -304,6 +305,7 @@ Greetings by H.E. Munkhbayasgalan Luvsanbyambaa, Member of Parliament and Water 
         <p>
 Greetings by Professor Batbayar Zeneemyadar, Director of Water Agency of Mongolian Goverment
         </p>
+        <p>
       </div>
     </div>
 

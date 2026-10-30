@@ -285,7 +285,7 @@ export default function Home() {
         <h3>Opening Ceremony</h3>
         <p>
 Welcome addresses by
-Ayurzana Badarch, The conference chair, MUST
+Ayurzana Badarch, The conference chair, MUST,
 Bulgantamir Nyamdorj, Director of FWRNCC
         </p>
         <p>
@@ -310,7 +310,7 @@ Greetings by H.E. Mandkhai Mendbayar and H.E. Bat-erdene Bat-Ulzii, Member of Pa
 Greetings by H.E. Munkhbayasgalan Luvsanbyambaa, Member of Parliament and Water Ambassador
         </p>
         <p>
-Greetings by Professor Batbayar Zeneemyadar, Director of Water Agency of Mongolian Goverment
+Greetings by Professor Batbayar Zeneemyadar, Director of Water Agency, Government of Mongolia.
         </p>
       </div>
     </div>
@@ -345,11 +345,32 @@ Greetings by Professor Batbayar Zeneemyadar, Director of Water Agency of Mongoli
         <h3>Morning Session</h3>
 
         <p>
-          Two keynote presentations and 3 selected scientific presentations
+          Keynote Lecture by Professor Tadanobu Nakayama, Prime Senior Researcher at National Institute for Environmental Studies, Japan (Online)
+          Assessment of grassland carrying capacity under constraint of water resources in Mongolia by making mutual comparisons of environmental indicators
+        </p>
+
+        <p>
+         Keynote Lecture by Dr Michael Heiner, The Nature Conservancy, USA (Online)
+          A National Assessment of Freshwater Ecosystem and Biodiversity Conservation
         </p>
 
         <div className="agenda-note">
-          Scientific presentations: 15 min presentation + 5 min discussion
+        <p>
+         Presenter Qinxue WANG, National Institute for Environmental Studies, Japan (Online)
+        Water Security in Mongolia Through a Storage-to-User Assessment: A Critical Review
+        </p>
+        <p>
+        Presenter Chandmani Dambabazar, Senior researcher (In person)
+          Solutions for Planning Livestock Water Supply in Mongolia in Response to Climate Change
+        </p>
+        <p>
+        Presenter Munkh-erdene Batsaikhan, Center for Climate Change and Research Cooperation (In person)
+          Assessing Wetland Water Conditions Using Multispectral Drone Mapping: A Case Study of the Darkhad Depression and Ogii Lake Basin
+        </p>
+        <p>
+        Presenter Ayurzana Badarch, School of Civil Engineering and Architecture, MUST (In person)
+          Reforming Mongolia’s Water Law: A Comparative Assessment of Legal Frameworks for Water Bodies, Floodplains, and Protection Zones
+        </p>
         </div>
       </div>
     </div>

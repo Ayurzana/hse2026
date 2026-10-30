@@ -301,7 +301,7 @@ National Anthem of Mongolia
 Greetings by H.E. Mr. Masaru Igawahara, Ambassador Extraordinary and Plenipotentiary of Japan to Mongolia
         </p>
         <p>
-Opening remarks Professor Damdin Ts, Founder of Freshwater resources and Environmental protection center
+Opening remarks by Professor Damdin Ts, Founder of Freshwater resources and Environmental protection center
         </p>
         <p>
 Greetings by H.E. Mandkhai Mendbayar and H.E. Bat-erdene Bat-Ulzii, Member of Parliament and Standing Committee on Environment, Food and Agriculture

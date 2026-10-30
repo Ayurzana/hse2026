@@ -284,28 +284,34 @@ export default function Home() {
       <div className="agenda-content">
         <h3>Opening Ceremony</h3>
         <p>
-        <p>
 Welcome addresses by
 Ayurzana Badarch, The conference chair, MUST
 Bulgantamir Nyamdorj, Director of FWRNCC
+        </p>
         <p>
 Greetings from H.E. Nyam-Osoryn Uchral, Prime Minister of Mongolia
+        </p>
         <p>
 Greetings by H.E. Mr. Sandag-Ochir Tsend, Minister of Environment and Climate change of Mongolia
+        </p>
         <p>
 National Anthem of Mongolia
+        </p>
         <p>
 Greetings by H.E. Mr. Masaru Igawahara, Ambassador Extraordinary and Plenipotentiary of Japan to Mongolia
+        </p>
         <p>
 Opening remarks Professor Damdin Ts, Founder of Freshwater resources and Environmental protection center
+        </p>
         <p>
 Greetings by H.E. Mandkhai Mendbayar and H.E. Bat-erdene Bat-Ulzii, Member of Parliament and Standing Committee on Environment, Food and Agriculture
+        </p>
         <p>
 Greetings by H.E. Munkhbayasgalan Luvsanbyambaa, Member of Parliament and Water Ambassador
+        </p>
         <p>
 Greetings by Professor Batbayar Zeneemyadar, Director of Water Agency of Mongolian Goverment
         </p>
-        <p>
       </div>
     </div>
 

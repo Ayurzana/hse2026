@@ -400,7 +400,7 @@ footer {
   }
 }
 /* =========================
-   TENTATIVE AGENDA
+   PRELIMINARY AGENDA
    ========================= */
 
 .agenda-section {
@@ -418,6 +418,9 @@ footer {
   margin-bottom: 20px;
 }
 
+
+/* PRELIMINARY BADGE */
+
 .tentative-badge {
   display: inline-block;
   background: #e6f3f6;
@@ -431,6 +434,9 @@ footer {
   letter-spacing: 0.06em;
   white-space: nowrap;
 }
+
+
+/* DATE / VENUE */
 
 .agenda-date {
   display: flex;
@@ -449,18 +455,24 @@ footer {
 }
 
 .agenda-date span {
-  opacity: 0.9;
+  opacity: 0.92;
 }
+
+
+/* AGENDA LIST */
 
 .agenda-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
 }
+
+
+/* INDIVIDUAL AGENDA ITEM */
 
 .agenda-item {
   display: grid;
-  grid-template-columns: 170px 1fr;
+  grid-template-columns: 200px 1fr;
   background: white;
   border: 1px solid #dde8ee;
   border-radius: 12px;
@@ -475,6 +487,9 @@ footer {
   box-shadow: 0 8px 20px rgba(14, 69, 91, 0.08);
 }
 
+
+/* TIME COLUMN */
+
 .agenda-time {
   display: flex;
   align-items: center;
@@ -487,20 +502,134 @@ footer {
   text-align: center;
 }
 
+
+/* CONTENT COLUMN */
+
 .agenda-content {
-  padding: 20px 24px;
+  padding: 22px 28px;
 }
 
 .agenda-content h3 {
   color: #174d65;
-  margin: 0 0 5px;
-  font-size: 1.1rem;
+  margin: 0 0 8px;
+  font-size: 1.15rem;
 }
 
 .agenda-content p {
+  margin: 0 0 10px;
+  color: #526b78;
+  line-height: 1.6;
+}
+
+.agenda-content p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* MAIN SESSION TITLE */
+
+.agenda-main-title {
+  color: #174d65;
+  font-size: 1.4rem !important;
+  font-weight: 700;
+  margin: 0 0 4px !important;
+}
+
+
+/* SESSION CHAIR */
+
+.agenda-chair {
+  color: #6a7d87;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+
+/* KEYNOTE / PRESENTATION HEADINGS */
+
+.agenda-session-label {
+  display: block;
+  color: #0b5d75;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin: 0 0 10px;
+}
+
+.agenda-subsection-label {
+  margin-top: 24px;
+}
+
+
+/* KEYNOTE AND PRESENTATION GROUPS */
+
+.agenda-subgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.agenda-subgroup p {
   margin: 0;
+  line-height: 1.65;
   color: #526b78;
 }
+
+.agenda-subgroup p strong {
+  color: #174d65;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+
+/* SPEAKER NAME */
+
+.agenda-speaker {
+  font-weight: 700;
+  color: #355b6d;
+}
+
+
+/* ONLINE / IN-PERSON */
+
+.agenda-mode {
+  font-style: italic;
+  color: #6d7f88;
+}
+
+
+/* PRESENTATION GROUP */
+
+.presentation-group {
+  background: #f5f9fa;
+  border-radius: 9px;
+  padding: 16px 18px;
+}
+
+
+/* OPENING PROGRAM LIST */
+
+.agenda-program-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.agenda-program-list p {
+  margin: 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #edf1f3;
+}
+
+.agenda-program-list p:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+
+/* TECHNICAL SESSION */
 
 .agenda-session {
   border-left: 4px solid #0b5d75;
@@ -510,15 +639,8 @@ footer {
   background: #e6f3f6;
 }
 
-.agenda-session-label {
-  display: inline-block;
-  color: #0b5d75;
-  font-size: 0.72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 5px;
-}
+
+/* OPENING / CLOSING */
 
 .agenda-special {
   border-left: 4px solid #328561;
@@ -529,6 +651,9 @@ footer {
   color: #277154;
 }
 
+
+/* BREAKS */
+
 .agenda-break {
   background: #fbfcfc;
 }
@@ -538,14 +663,8 @@ footer {
   color: #647781;
 }
 
-.agenda-note {
-  margin-top: 10px;
-  padding: 8px 12px;
-  background: #f5f9fa;
-  color: #526b78;
-  border-radius: 6px;
-  font-size: 1.0rem;
-}
+
+/* DISCLAIMER */
 
 .agenda-disclaimer {
   margin-top: 28px;
@@ -557,9 +676,13 @@ footer {
   font-size: 0.92rem;
 }
 
-/* MOBILE AGENDA */
+
+/* =========================
+   MOBILE AGENDA
+   ========================= */
 
 @media (max-width: 750px) {
+
   .section-heading-row {
     flex-direction: column;
     gap: 10px;
@@ -583,7 +706,21 @@ footer {
     flex-direction: column;
     gap: 3px;
   }
+
+  .agenda-main-title {
+    font-size: 1.2rem !important;
+  }
+
+  .agenda-subgroup p {
+    line-height: 1.55;
+  }
+
+  .presentation-group {
+    padding: 14px;
+  }
 }
+
+
 /* CONTACT & SOCIAL MEDIA */
 
 .contact-grid {

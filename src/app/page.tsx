@@ -176,11 +176,13 @@ export default function Home() {
               <span className="new-deadline">Extended to 23 October 2026</span>
              </span>
             </div>
-        
-
+            
             <div className="date-row">
               <strong>Revised Full Paper Submission</strong>
-              <span>          28 October 2026</span>
+              <span className="deadline-update">
+              <del className="old-deadline">28 October 2026</del>
+              <span className="new-deadline">Extended to 31 October 2026</span>
+             </span>
             </div>
 
             <div className="date-row">
@@ -282,8 +284,25 @@ export default function Home() {
       <div className="agenda-content">
         <h3>Opening Ceremony</h3>
         <p>
-          Welcome remarks and opening addresses by conference organizers
-          and invited representatives
+Welcome addresses by
+Ayurzana Badarch, The conference chair, MUST
+Bulgantamir Nyamdorj, Director of FWRNCC
+
+Greetings from H.E. Nyam-Osoryn Uchral, Prime Minister of Mongolia
+
+Greetings by H.E. Mr. Sandag-Ochir Tsend, Minister of Environment and Climate change of Mongolia
+
+National Anthem of Mongolia
+
+Greetings by H.E. Mr. Masaru Igawahara, Ambassador Extraordinary and Plenipotentiary of Japan to Mongolia
+
+Opening remarks Professor Damdin Ts, Founder of Freshwater resources and Environmental protection center
+
+Greetings by H.E. Mandkhai Mendbayar and H.E. Bat-erdene Bat-Ulzii, Member of Parliament and Standing Committee on Environment, Food and Agriculture
+
+Greetings by H.E. Munkhbayasgalan Luvsanbyambaa, Member of Parliament and Water Ambassador
+
+Greetings by Professor Batbayar Zeneemyadar, Director of Water Agency of Mongolian Goverment
         </p>
       </div>
     </div>
@@ -310,7 +329,7 @@ export default function Home() {
     </div>
 
     <div className="agenda-item agenda-session">
-      <div className="agenda-time">10:00–12:00</div>
+      <div className="agenda-time">10:00–12:20</div>
 
       <div className="agenda-content">
         <div className="agenda-session-label">Technical Session</div>
@@ -328,7 +347,7 @@ export default function Home() {
     </div>
 
     <div className="agenda-item agenda-break">
-      <div className="agenda-time">12:00–13:30</div>
+      <div className="agenda-time">12:20–13:30</div>
 
       <div className="agenda-content">
         <h3>Lunch Break</h3>

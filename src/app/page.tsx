@@ -345,30 +345,30 @@ Greetings by Professor Batbayar Zeneemyadar, Director of Water Agency, Governmen
         <h3>Morning Session</h3>
 
         <p>
-          Keynote Lecture by Professor Tadanobu Nakayama, Prime Senior Researcher at National Institute for Environmental Studies, Japan (Online)
+          10:00–10:30 Keynote Lecture by Professor Tadanobu Nakayama, Prime Senior Researcher at National Institute for Environmental Studies, Japan (Online):
           Assessment of grassland carrying capacity under constraint of water resources in Mongolia by making mutual comparisons of environmental indicators
         </p>
 
         <p>
-         Keynote Lecture by Dr Michael Heiner, The Nature Conservancy, USA (Online)
+         10:30–11:00 Keynote Lecture by Dr Michael Heiner, The Nature Conservancy, USA (Online):
           A National Assessment of Freshwater Ecosystem and Biodiversity Conservation
         </p>
 
         <div className="agenda-note">
         <p>
-         Presenter Qinxue WANG, National Institute for Environmental Studies, Japan (Online)
+         11:00–11:20 Presenter Qinxue WANG, National Institute for Environmental Studies, Japan (Online):
         Water Security in Mongolia Through a Storage-to-User Assessment: A Critical Review
         </p>
         <p>
-        Presenter Chandmani Dambabazar, Senior researcher (In person)
+        11:20–11:40 Presenter Chandmani Dambabazar, Senior researcher (In person):
           Solutions for Planning Livestock Water Supply in Mongolia in Response to Climate Change
         </p>
         <p>
-        Presenter Munkh-erdene Batsaikhan, Center for Climate Change and Research Cooperation (In person)
+        11:40–12:00 Presenter Munkh-erdene Batsaikhan, Center for Climate Change and Research Cooperation (In person):
           Assessing Wetland Water Conditions Using Multispectral Drone Mapping: A Case Study of the Darkhad Depression and Ogii Lake Basin
         </p>
         <p>
-        Presenter Ayurzana Badarch, School of Civil Engineering and Architecture, MUST (In person)
+        12:00–12:20 Presenter Ayurzana Badarch, School of Civil Engineering and Architecture, MUST (In person):
           Reforming Mongolia’s Water Law: A Comparative Assessment of Legal Frameworks for Water Bodies, Floodplains, and Protection Zones
         </p>
         </div>

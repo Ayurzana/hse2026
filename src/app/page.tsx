@@ -429,7 +429,7 @@ export default function Home() {
           </p>
 
           <p>
-            <strong>12:00–13:30</strong>{" "}
+            <strong>12:00–13:20</strong>{" "}
             <span className="agenda-speaker">Ayurzana Badarch</span>,
             School of Civil Engineering and Architecture, MUST{" "}
             <span className="agenda-mode">(In person)</span>: Reforming

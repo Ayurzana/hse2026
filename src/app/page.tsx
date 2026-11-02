@@ -388,7 +388,7 @@ export default function Home() {
           </p>
 
           <p>
-            <strong>10:30–11:00</strong>{" "}
+            <strong>11:30–12:00</strong>{" "}
             <span className="agenda-speaker">Dr Michael Heiner</span>,
             The Nature Conservancy, USA{" "}
             <span className="agenda-mode">(Online)</span>: A National
@@ -403,7 +403,7 @@ export default function Home() {
 
         <div className="agenda-subgroup presentation-group">
           <p>
-            <strong>11:00–11:20</strong>{" "}
+            <strong>10:30–10:50</strong>{" "}
             <span className="agenda-speaker">Qinxue WANG</span>,
             National Institute for Environmental Studies, Japan{" "}
             <span className="agenda-mode">(Online)</span>: Water Security in
@@ -411,7 +411,7 @@ export default function Home() {
           </p>
 
           <p>
-            <strong>11:20–11:40</strong>{" "}
+            <strong>10:50–11:10</strong>{" "}
             <span className="agenda-speaker">Chandmani Dambabazar</span>,
             Senior Researcher{" "}
             <span className="agenda-mode">(In person)</span>: Solutions for
@@ -420,7 +420,7 @@ export default function Home() {
           </p>
 
           <p>
-            <strong>11:40–12:00</strong>{" "}
+            <strong>11:10–11:30</strong>{" "}
             <span className="agenda-speaker">Munkh-erdene Batsaikhan</span>,
             Center for Climate Change and Research Cooperation{" "}
             <span className="agenda-mode">(In person)</span>: Assessing
@@ -429,7 +429,7 @@ export default function Home() {
           </p>
 
           <p>
-            <strong>12:00–12:20</strong>{" "}
+            <strong>12:00–13:30</strong>{" "}
             <span className="agenda-speaker">Ayurzana Badarch</span>,
             School of Civil Engineering and Architecture, MUST{" "}
             <span className="agenda-mode">(In person)</span>: Reforming

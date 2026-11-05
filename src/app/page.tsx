@@ -271,9 +271,7 @@ export default function Home() {
 
               <p className="section-intro">
                 The programme below provides the final schedule for
-                Hydroscience and Engineering 2026. Presentation titles,
-                speakers, session chairs, and programme arrangements may be
-                updated as the final conference programme is confirmed.
+                Hydroscience and Engineering 2026.
               </p>
 
               <div className="program-downloads">
@@ -328,11 +326,6 @@ export default function Home() {
                     <strong>Welcome addresses:</strong> Ayurzana Badarch,
                     Conference Chair, MUST; Bulgantamir Nyamdorj, Director of
                     FWRNCC (2 min)
-                  </p>
-
-                  <p>
-                    Greetings from H.E. Nyam-Osoryn Uchral, Prime Minister of
-                    Mongolia (5 min)
                   </p>
 
                   <p>

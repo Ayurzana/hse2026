@@ -794,3 +794,39 @@ footer {
     max-width: 300px;
   }
 }
+.program-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.program-download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 18px;
+  border-radius: 8px;
+  background: #0b5d75;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.program-download-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.14);
+}
+
+@media (max-width: 700px) {
+  .program-downloads {
+    flex-direction: column;
+  }
+
+  .program-download-button {
+    width: 100%;
+  }
+}

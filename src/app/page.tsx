@@ -247,11 +247,11 @@ export default function Home() {
 
 
 
-        {/* PRELIMINARY AGENDA · УРЬДЧИЛСАН ХӨТӨЛБӨР */}
+        {/* CONFERENCE PROGRAM · ХУРЛЫН ХӨТӨЛБӨР */}
 <section className="section agenda-section" id="agenda">
   <div className="section-heading-row">
     <div>
-      <h2>Agenda · Хөтөлбөр</h2>
+      <h2>Program · Хөтөлбөр</h2>
 
       <p className="section-intro">
         The programme below provides the final schedule for
@@ -259,9 +259,30 @@ export default function Home() {
         session chairs, and programme arrangements may be updated as the
         final conference programme is confirmed.
       </p>
-    </div>
 
-    <span className="tentative-badge">Preliminary</span>
+      <div className="program-downloads">
+        <a
+          href="/HSE_2026_AgendaEng.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="program-download-button"
+        >
+          View English Program PDF
+        </a>
+
+        <a
+          href="/HSE_2026_AgendaMon.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="program-download-button"
+        >
+          Монгол хөтөлбөр PDF
+        </a>
+      </div>
+    </div>
+  </div>
+
+    <span className="tentative-badge">Final</span>
   </div>
 
   <div className="agenda-date">

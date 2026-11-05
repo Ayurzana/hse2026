@@ -251,10 +251,10 @@ export default function Home() {
 <section className="section agenda-section" id="agenda">
   <div className="section-heading-row">
     <div>
-      <h2>Preliminary Agenda · Урьдчилсан хөтөлбөр</h2>
+      <h2>Agenda · Хөтөлбөр</h2>
 
       <p className="section-intro">
-        The programme below provides the preliminary schedule for
+        The programme below provides the final schedule for
         Hydroscience and Engineering 2026. Presentation titles, speakers,
         session chairs, and programme arrangements may be updated as the
         final conference programme is confirmed.
@@ -368,7 +368,7 @@ export default function Home() {
         <h3 className="agenda-main-title">Morning Session</h3>
 
         <div className="agenda-chair">
-          Chaired by FWRNCC
+          Chaired by Maralmaa Munkhbat, FWRNCC
         </div>
 
         {/* KEYNOTE LECTURES */}
@@ -458,7 +458,7 @@ export default function Home() {
         <h3 className="agenda-main-title">Afternoon Session I</h3>
 
         <div className="agenda-chair">
-          Chaired by MUST
+          Chaired by Dr Uyanga Tumurtogoo, MUST
         </div>
 
         {/* KEYNOTE LECTURES */}
@@ -535,7 +535,7 @@ export default function Home() {
         <h3 className="agenda-main-title">Afternoon Session II</h3>
 
         <div className="agenda-chair">
-          Chaired by FWRNCC
+          Chaired by Zorigt Nyamdorj, FWRNCC
         </div>
 
         {/* KEYNOTE LECTURE */}
@@ -619,9 +619,9 @@ export default function Home() {
   </div>
 
   <div className="agenda-disclaimer">
-    <strong>Note:</strong> This is a preliminary programme for information
+    <strong>Note:</strong> This is a final programme for information
     purposes. Presentation details, speakers, session arrangements, and
-    timings may be updated before the final conference programme is issued.
+    timings may be updated during the conference day.
   </div>
 </section>
         

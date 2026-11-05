@@ -290,7 +290,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="program-download-button"
                 >
-                  Монгол хөтөлбөр PDF
+                  Монгол хөтөлбөр үзэх PDF
                 </a>
               </div>
             </div>

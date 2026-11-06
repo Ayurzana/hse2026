@@ -451,7 +451,7 @@ export default function Home() {
                     <span className="agenda-speaker">
                       Chandmani Dambabazar
                     </span>
-                    , Senior Researcher{" "}
+                    , Senior Researcher, MSWE{" "}
                     <span className="agenda-mode">(In person)</span>: Solutions
                     for Planning Livestock Water Supply in Mongolia in Response
                     to Climate Change

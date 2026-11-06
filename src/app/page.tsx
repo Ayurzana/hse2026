@@ -474,7 +474,7 @@ export default function Home() {
                   </p>
 
                   <p>
-                    <strong>12:00–13:20</strong>{" "}
+                    <strong>12:00–12:20</strong>{" "}
                     <span className="agenda-speaker">
                       Ayurzana Badarch
                     </span>

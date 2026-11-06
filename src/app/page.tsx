@@ -364,6 +364,11 @@ export default function Home() {
                     Greetings by Professor Batbayar Zeneemyadar, Director of the
                     Water Agency of the Government of Mongolia (5 min)
                   </p>
+  
+                  <p>
+                    Greetings by Mr. Ganzorig Sharav, President of
+                    Mongolian Society for Water Engineering (5 min)
+                  </p>
                 </div>
               </div>
             </div>
